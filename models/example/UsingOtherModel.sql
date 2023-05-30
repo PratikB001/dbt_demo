@@ -1,0 +1,1 @@
+select count(id) as idcount from {{ ref('newtable') }}
