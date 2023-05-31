@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: sourcename #required
+    description: 'testing purpose'
+    database: DBTDEMO
+    schema: DBT_PBUDHATHOKI
+    tables:
+      - name: TABLE1
+      - name: TABLE2

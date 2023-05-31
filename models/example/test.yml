@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: test
+      columns:
+          - name: Name
+
+          - name: Age
+
+          - name: Country
+            tests:
+              - is_nepal
+            
